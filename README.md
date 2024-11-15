@@ -1,24 +1,20 @@
-# Frobnicator (this is a template)
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/M0kyOMLZ)
+# 1000
 
 ## Authors
-- Andrzej Głuszak (@agluszak on GitHub)
-- Linus Torvalds (@torvalds on GitHub)
+- Tap
 
 ## Description
-Frobnicator is going to be a platformer game similar to Super Mario Bros made using Korge game engine.
+1000 - everyone knows how to play "tysiąc"
 
 ## Features
-- map generator
-- shooting
-- enemy AI
-- game state saving and loading
-- scores
+- server hosts a game, waiting for 3 players (clients)
+- server rules the game, clients only send messages, but at any time (eg. client wants to play a card), server concurrently handles messages and replies (eg. the card played by player A was illegal)
 
 ## Plan
-In the first part we're going to implement the basics: movement, physics and shooting. The enemies will simply bounce from one edge of the platform to the other. There will be only a single map.
+The first part is game logic
 
-In the second part we're going to add random map generator, saving/loading, scores and a more sophisticated AI.
+The second part will be GUI
 
 ## Libraries
-- Korge (https://korge.org/)
-- kotlinx-serialization (https://github.com/Kotlin/kotlinx.serialization)
+- idk yet
