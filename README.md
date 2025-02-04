@@ -1,6 +1,11 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/M0kyOMLZ)
 # 1000
 
+# How to run
+- Run server first with `./gradlew :server:run --args="localhost 8080"` (or your host/server)
+- Run client (player) with `./gradlew :client:run --args="localhost 8080 1` (or your host, port, player index from 1-3)
+- You can only play by command line at the moment
+
 ## Authors
 - Tap
 
