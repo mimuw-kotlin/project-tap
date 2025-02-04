@@ -231,7 +231,7 @@ class ClientTest {
             val (input, output, _) = connectToServer(host, port, place)
             val (_, newLicWinnerPoint) = play1round(lewStarter, gameState, 0, place, input, output)
             assert(gameState.myCards.size < cardsCount)
-            val res = gameState.points.toMutableList()
+            val res = (gameState.points.map { it.value }).toMutableList()
             res.add(newLicWinnerPoint)
             return res
         }
